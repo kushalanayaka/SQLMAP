@@ -70,3 +70,4 @@ Each issue is documented with:
 
 # Ethical Notice
 All testing is performed only within authorized environments and follows responsible disclosure practices.
+
