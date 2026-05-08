@@ -1,4 +1,4 @@
-<img width="1374" height="551" alt="TASK1-S3" src="https://github.com/user-attachments/assets/b0f5203c-1a9a-445a-8334-765140d650e0" /># SQLMap Learning Journey
+# SQLMap Learning Journey
 
 **Target Website:** `https://demo.testfire.net/login.jsp`
 
