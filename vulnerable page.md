@@ -19,7 +19,7 @@
 
 - The output displays the list of available databases extracted from the target application.
 - This step helps identify the correct database for further enumeration such as tables, columns, and sensitive data.
-<img width="1371" height="615" alt="TASK1-S2" src="https://github.com/user-attachments/assets/838b566b-046a-4316-9d50-5bafefc68a10" />
+<img width="1356" height="415" alt="TASK1-S1" src="https://github.com/user-attachments/assets/ba68a252-8c3b-45e3-be89-4773f6dabc5b" />
 
 <br>
 ---
