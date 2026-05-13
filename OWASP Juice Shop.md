@@ -20,7 +20,7 @@ sqlmap -r owasp.txt --dbs
 
 ---
 
-## Step 2 – Enumerating Database Name
+## Step 2 – Identifying Database Name
 
 ### Command Used
 ```bash
@@ -33,7 +33,7 @@ sqlmap -r owasp.txt -D SQLite_masterdb --tables --level=3 --risk=2
 
 ---
 
-## Step 3 – Dumping Data from the Users Table
+## Step 3 – Enumerating Database Tables and dumping data from user table
 
 ### Command Used
 ```bash
