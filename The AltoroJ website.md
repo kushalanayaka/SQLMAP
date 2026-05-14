@@ -1,6 +1,7 @@
 # SQLMap Learning Journey
 
 **Target Website:** `https://demo.testfire.net/login.jsp`
+<img width="1361" height="549" alt="image" src="https://github.com/user-attachments/assets/fa13b828-815a-4d79-8f8f-4dddfa327f69" />
 
 > This target is a deliberately vulnerable demo application used for security testing and learning purposes.
 
