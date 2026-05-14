@@ -1,6 +1,7 @@
 # SQLMap Learning Journey – OWASP Juice Shop Exploitation
 
 **Target Website:** `https://juice-shop.herokuapp.com`
+<img width="1363" height="600" alt="image" src="https://github.com/user-attachments/assets/7f289c87-07a3-4e33-90df-7ea9b4daa794" />
 
 > This lab was performed on the OWASP Juice Shop vulnerable application for educational security testing and SQL Injection learning purposes only.
 
