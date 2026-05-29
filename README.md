@@ -162,3 +162,7 @@ This workflow demonstrates how to chain the options above to perform a complete 
 
 - [Official SQLMAP Wiki](https://github.com/sqlmapproject/sqlmap/wiki)
 - [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+
+
+
+<img width="1054" height="1492" alt="ChatGPT Image May 29, 2026, 11_25_47 PM" src="https://github.com/user-attachments/assets/37742152-1df0-4739-825c-8c1f2c6fde16" />
